@@ -81,7 +81,7 @@ const AboutStyled = styled.div`
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: 1030px) {
-    height: 60vh;
+    min-height: 60vh;
   }
   .about-wrapper {
     display: flex;
@@ -114,6 +114,9 @@ const AboutStyled = styled.div`
         margin-top: 30px;
         margin-bottom: 30px;
       }
+      @media screen and (max-width: 575px) {
+        margin-bottom: 0;
+      }
       h5 {
         font-size: 16px;
         width: 80%;
@@ -131,6 +134,9 @@ const AboutStyled = styled.div`
         @media screen and (max-width: 1030px) {
           margin: 20px auto;
           justify-content: center;
+        }
+        @media screen and (max-width: 575px) {
+          margin-bottom: 0;
         }
       }
       .img-profile {
@@ -162,6 +168,9 @@ const AboutStyled = styled.div`
         @media screen and (max-width: 1030px) {
           margin: 5px 0 0 40px;
         }
+        @media screen and (max-width: 575px) {
+          font-size: 16px;
+        }
       }
       h5 {
         font-size: 16px;
@@ -171,6 +180,9 @@ const AboutStyled = styled.div`
         margin-left: 15%;
         @media screen and (max-width: 1030px) {
           margin: 5px 0 0 60px;
+        }
+        @media screen and (max-width: 575px) {
+          font-size: 14px;
         }
       }
     }

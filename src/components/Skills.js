@@ -52,7 +52,7 @@ function Skills() {
                     70%
                   </div>
                 </div>
-                <h6>CSS/Sass/Flexbox/StyledComponents</h6>
+                <h6>CSS/Sass/StyledComponents</h6>
                 <div className="progress2">
                   <div
                     role="progressbar"
