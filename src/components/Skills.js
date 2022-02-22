@@ -204,6 +204,7 @@ const SkillsStyled = styled.div`
         font-size: 18px;
         @media only screen and (max-width: 575px) {
           width: 95%;
+          padding: 7px;
         }
       }
       .active-tabs {
@@ -242,6 +243,9 @@ const SkillsStyled = styled.div`
               width: 30%;
               text-align: left;
               font-weight: 700;
+              @media only screen and (max-width: 575px) {
+                margin-bottom: 5px;
+              }
             }
             h6 {
               font-size: 16px;
@@ -249,6 +253,9 @@ const SkillsStyled = styled.div`
               margin-top: 30px;
               margin-bottom: 10px;
               font-weight: 300;
+              @media only screen and (max-width: 575px) {
+                margin-top: 10px;
+              }
             }
             .progress2 {
               height: 18px;
