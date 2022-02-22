@@ -143,6 +143,14 @@ const ProjectsStyled = styled.div`
   width: 90%;
   height: 67vh;
   margin: 20px auto 30px;
+  @media only screen and (max-width: 1030px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 132vh;
+  }
   .project-left {
     width: 50%;
     display: -webkit-flex;
@@ -153,6 +161,9 @@ const ProjectsStyled = styled.div`
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+    @media only screen and (max-width: 1030px) {
+      width: 110vw;
+    }
     h5 {
       font-size: 25px;
       font-weight: 700;
@@ -201,6 +212,9 @@ const ProjectsStyled = styled.div`
     justify-content: center;
 
     margin-bottom: -3rem;
+    @media only screen and (max-width: 1030px) {
+      width: 90%;
+    }
     h6 {
       font-size: 23px;
       font-weight: 300;

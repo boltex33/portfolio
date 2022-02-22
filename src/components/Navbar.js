@@ -11,10 +11,12 @@ function Navbar() {
         <a href="#start">My Portfolio</a>
       </div>
       <Links>
-        <li>
+        <li className="del">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <a href="#contact">Contact</a>
+        <li className="del">
+          <a href="#contact">Contact</a>
+        </li>
         <li>
           <a href="/">
             Résumé
@@ -48,6 +50,10 @@ const Nav = styled.div`
     justify-content: center;
     align-items: center;
     gap: 0.3rem;
+    @media only screen and (max-width: 730px) {
+      margin-left: 2%;
+    }
+
     .logo-img {
       filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
         brightness(119%) contrast(119%);
@@ -66,6 +72,12 @@ const Links = styled.div`
   display: flex;
   flex-grow: 100;
   justify-content: end;
+  @media only screen and (max-width: 730px) {
+    .del {
+      display: none;
+    }
+    margin-right: 2%;
+  }
   a {
     text-decoration: none;
     color: white;

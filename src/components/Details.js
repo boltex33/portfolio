@@ -52,6 +52,9 @@ const DetailsStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  @media screen and (max-width: 1030px) {
+    margin-top: -100px;
+  }
 `;
 const DetailsContainer = styled.div`
   background-color: #043a4e;
@@ -59,6 +62,9 @@ const DetailsContainer = styled.div`
   min-height: 82vh;
   width: 65%;
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 50%);
+  @media screen and (max-width: 1030px) {
+    width: 90%;
+  }
   .navbar {
     display: flex;
     align-items: center;

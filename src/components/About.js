@@ -90,25 +90,45 @@ const AboutStyled = styled.div`
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
-    .about-left {
-      display: -webkit-flex;
+    @media screen and (max-width: 1030px) {
       display: flex;
-      -webkit-flex-direction: column;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      padding: 10px;
+      width: 100%;
+    }
+    .about-left {
+      display: flex;
       flex-direction: column;
       width: 50%;
-      -webkit-align-items: center;
       align-items: center;
+      @media screen and (max-width: 1030px) {
+        .img-profile {
+          display: none;
+        }
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
       h5 {
         font-size: 16px;
         width: 80%;
         margin-bottom: 30px;
         margin-top: 10px;
         font-weight: 300;
+        @media screen and (max-width: 1030px) {
+          margin-bottom: 0;
+        }
       }
       h6 {
         width: 80%;
         display: flex;
         align-items: center;
+        @media screen and (max-width: 1030px) {
+          margin: 20px auto;
+          justify-content: center;
+        }
       }
       .img-profile {
         width: 35%;
@@ -125,6 +145,10 @@ const AboutStyled = styled.div`
     }
     .about-right {
       border-left: 3px solid #002a39;
+      @media screen and (max-width: 1030px) {
+        width: 100%;
+        border-left: none;
+      }
       h2 {
         font-size: 20px;
         margin-bottom: 20px;
@@ -132,6 +156,9 @@ const AboutStyled = styled.div`
         width: 85%;
         font-weight: 300;
         margin-left: 10%;
+        @media screen and (max-width: 1030px) {
+          margin: 5px 0 0 40px;
+        }
       }
       h5 {
         font-size: 16px;
@@ -139,6 +166,9 @@ const AboutStyled = styled.div`
         width: 80%;
         font-weight: 300;
         margin-left: 15%;
+        @media screen and (max-width: 1030px) {
+          margin: 5px 0 0 60px;
+        }
       }
     }
   }

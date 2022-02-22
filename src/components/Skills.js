@@ -181,8 +181,14 @@ const SkillsStyled = styled.div`
     display: flex;
     width: 90%;
     margin: 0 auto 0 0;
+    @media only screen and (max-width: 575px) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
     .bloc-tabs {
       flex-grow: 1;
+
       .tabs {
         padding: 10px;
         text-align: left;
@@ -190,6 +196,9 @@ const SkillsStyled = styled.div`
         cursor: pointer;
         position: relative;
         font-size: 18px;
+        @media only screen and (max-width: 575px) {
+          width: 95%;
+        }
       }
       .active-tabs {
         background: #007bff;
@@ -202,6 +211,10 @@ const SkillsStyled = styled.div`
       height: 60vh;
       align-items: center;
       justify-content: center;
+      @media only screen and (max-width: 575px) {
+        width: 100%;
+        flex: 1;
+      }
       .content {
         width: 100%;
         height: 60%;

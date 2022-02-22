@@ -7,7 +7,7 @@ function Info() {
     <InfoStyled id="start">
       <div className="info-name">
         <div className="info-name2">
-          <div>
+          <div className="info-name3">
             <h5>Hello, I am</h5>
             <h3>Lacatușu</h3>
             <h4>Andrei - Cristian</h4>
@@ -28,6 +28,9 @@ const InfoStyled = styled.div`
   height: 94vh;
   width: 66%;
   margin: 0 auto;
+  @media (max-width: 1030px) {
+    width: 90%;
+  }
   .info-name {
     width: 50%;
     text-align: center;
@@ -72,6 +75,41 @@ const InfoStyled = styled.div`
     .tilt:hover {
       transform: perspective(1000px) rotateX(5deg) rotateY(10deg)
         scale3d(1.2, 1.2, 1.2);
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .info-img {
+      width: 100%;
+      height: 50%;
+    }
+    .info-name {
+      width: 100%;
+      height: 30%;
+    }
+    .info-name2 {
+      justify-content: center;
+      margin-top: 5rem;
+      align-items: center;
+    }
+    .info-name2 {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      h3,
+      h4,
+      h5 {
+        width: 100%;
+      }
+      h3 {
+        font-size: 40px;
+      }
+      h4 {
+        font-size: 35px;
+      }
+      h5 {
+        font-size: 20px;
+      }
     }
   }
 `;

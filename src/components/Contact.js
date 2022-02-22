@@ -60,6 +60,10 @@ const ContactStyled = styled.div`
   height: 80vh;
   overflow: hidden;
   margin-top: 10rem;
+  @media only screen and (max-width: 1030px) {
+    margin-top: 0;
+    margin-bottom: -30px;
+  }
   .form {
     padding: 20px;
     margin: 0 auto;
@@ -72,6 +76,13 @@ const ContactStyled = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 1030px) {
+      width: 90%;
+
+      .form-width {
+        width: 90%;
+      }
+    }
   }
   .form-width {
     width: 50%;
@@ -148,6 +159,9 @@ const ContactStyled = styled.div`
     margin-top: -290px;
     right: 50px;
     margin-right: 30px;
+    @media only screen and (max-width: 1030px) {
+      display: none;
+    }
   }
   .tilt {
     width: 100%;
