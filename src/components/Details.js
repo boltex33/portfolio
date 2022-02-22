@@ -64,6 +64,7 @@ const DetailsContainer = styled.div`
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 50%);
   @media screen and (max-width: 1030px) {
     width: 90%;
+    min-height: 73vh;
   }
   .navbar {
     display: flex;

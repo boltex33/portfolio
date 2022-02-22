@@ -80,6 +80,9 @@ const AboutStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 1030px) {
+    height: 60vh;
+  }
   .about-wrapper {
     display: flex;
     color: #fff;
@@ -94,9 +97,9 @@ const AboutStyled = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 100%;
-      padding: 10px;
       width: 100%;
+      min-height: 60vh;
+      margin: 0 10px -40px 10px;
     }
     .about-left {
       display: flex;

@@ -132,6 +132,9 @@ const ProjectsContainer = styled.div`
   padding: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
+  @media only screen and (max-width: 1030px) {
+    height: 60vh;
+  }
 `;
 
 const ProjectsStyled = styled.div`
