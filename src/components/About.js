@@ -99,7 +99,13 @@ const AboutStyled = styled.div`
       align-items: center;
       width: 100%;
       min-height: 60vh;
-      margin: 0 10px -40px 10px;
+      margin: 0;
+    }
+    @media only screen and (max-height: 700px) {
+      height: 88vh;
+    }
+    @media only screen and (max-height: 500px) {
+      height: 100vh;
     }
 
     .about-left {

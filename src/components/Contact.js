@@ -61,8 +61,7 @@ const ContactStyled = styled.div`
   overflow: hidden;
   margin-top: 10rem;
   @media only screen and (max-width: 1030px) {
-    margin-top: 0;
-    margin-bottom: -30px;
+    margin: 0;
   }
   .form {
     padding: 20px;

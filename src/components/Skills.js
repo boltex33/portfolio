@@ -179,6 +179,9 @@ const SkillsStyled = styled.div`
   @media only screen and (max-width: 1030px) {
     height: 58vh;
   }
+  @media only screen and (max-height: 700px) {
+    height: 88vh;
+  }
   @media only screen and (max-width: 575px) {
     overflow: hidden;
   }
@@ -203,7 +206,7 @@ const SkillsStyled = styled.div`
         font-size: 18px;
         @media only screen and (max-width: 575px) {
           width: 95%;
-          padding: 7px;
+          padding: 5px;
         }
       }
       .active-tabs {
@@ -243,7 +246,7 @@ const SkillsStyled = styled.div`
               text-align: left;
               font-weight: 700;
               @media only screen and (max-width: 575px) {
-                margin-bottom: 5px;
+                display: none;
               }
             }
             h6 {
