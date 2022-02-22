@@ -73,6 +73,9 @@ const DetailsContainer = styled.div`
     border-bottom: 3px solid #002937;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 50%);
     height: 70px;
+    @media screen and (max-width: 355px) {
+      height: 70%;
+    }
     .nav-wrapper {
       display: flex;
       width: 100%;
@@ -84,15 +87,24 @@ const DetailsContainer = styled.div`
       flex: 1;
       h3 {
         font-weight: 300;
+
         cursor: pointer;
         :hover {
           color: #458deb;
+        }
+        @media screen and (max-width: 355px) {
+          font-size: 15px;
         }
       }
     }
     .navbar-div {
       flex: 1;
       height: 100%;
+      @media screen and (max-width: 355px) {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
     }
     .active {
       background-color: #0c5975;

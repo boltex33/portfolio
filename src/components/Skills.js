@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 function Skills() {
   const [toggle, setToggle] = useState(1);
-
   const toggleTab = (index) => {
     setToggle(index);
   };
@@ -253,9 +252,6 @@ const SkillsStyled = styled.div`
               margin-top: 30px;
               margin-bottom: 10px;
               font-weight: 300;
-              @media only screen and (max-width: 575px) {
-                margin-top: 10px;
-              }
             }
             .progress2 {
               height: 18px;

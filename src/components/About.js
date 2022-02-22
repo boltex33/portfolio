@@ -101,6 +101,7 @@ const AboutStyled = styled.div`
       min-height: 60vh;
       margin: 0 10px -40px 10px;
     }
+
     .about-left {
       display: flex;
       flex-direction: column;
@@ -117,6 +118,9 @@ const AboutStyled = styled.div`
       @media screen and (max-width: 575px) {
         margin-bottom: 0;
       }
+      @media screen and (max-width: 355px) {
+        margin-top: 0;
+      }
       h5 {
         font-size: 16px;
         width: 80%;
@@ -125,6 +129,9 @@ const AboutStyled = styled.div`
         font-weight: 300;
         @media screen and (max-width: 1030px) {
           margin-bottom: 0;
+        }
+        @media screen and (max-width: 355px) {
+          font-size: 14px;
         }
       }
       h6 {
@@ -137,6 +144,10 @@ const AboutStyled = styled.div`
         }
         @media screen and (max-width: 575px) {
           margin-bottom: 0;
+          margin-top: 5px;
+        }
+        @media screen and (max-width: 255px) {
+          height: 25px;
         }
       }
       .img-profile {
@@ -150,6 +161,9 @@ const AboutStyled = styled.div`
           brightness(95%) contrast(100%);
         width: 1.8rem;
         margin-right: 2rem;
+        @media screen and (max-width: 355px) {
+          width: 1.5rem;
+        }
       }
     }
     .about-right {
@@ -158,6 +172,7 @@ const AboutStyled = styled.div`
         width: 100%;
         border-left: none;
       }
+
       h2 {
         font-size: 20px;
         margin-bottom: 20px;
@@ -171,6 +186,10 @@ const AboutStyled = styled.div`
         @media screen and (max-width: 575px) {
           font-size: 16px;
         }
+        @media screen and (max-width: 355px) {
+          margin-left: 5px;
+          margin-top: 0;
+        }
       }
       h5 {
         font-size: 16px;
@@ -183,6 +202,9 @@ const AboutStyled = styled.div`
         }
         @media screen and (max-width: 575px) {
           font-size: 14px;
+        }
+        @media screen and (max-width: 355px) {
+          margin-left: 10px;
         }
       }
     }
@@ -198,6 +220,9 @@ const AboutStyled = styled.div`
         brightness(95%) contrast(100%);
       img {
         width: 2.7rem;
+        @media screen and (max-width: 355px) {
+          width: 2rem;
+        }
       }
     }
   }
