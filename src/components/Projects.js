@@ -152,7 +152,10 @@ const ProjectsStyled = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 132vh;
+    min-height: 120vh;
+  }
+  @media only screen and (max-width: 575px) {
+    min-height: 110vh;
   }
   .project-left {
     width: 50%;
@@ -166,6 +169,9 @@ const ProjectsStyled = styled.div`
     justify-content: center;
     @media only screen and (max-width: 1030px) {
       width: 110vw;
+    }
+    @media only screen and (max-width: 575px) {
+      margin-top: -150px;
     }
     h5 {
       font-size: 25px;
