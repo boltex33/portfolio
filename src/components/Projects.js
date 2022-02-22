@@ -168,7 +168,7 @@ const ProjectsStyled = styled.div`
     -webkit-justify-content: center;
     justify-content: center;
     @media only screen and (max-width: 1030px) {
-      width: 110vw;
+      width: 120vw;
     }
     @media only screen and (max-width: 575px) {
       margin-top: -150px;
