@@ -1,22 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import emailImg from "../img/email.svg";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const sentEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.init(process.env.REACT_APP_PUBLIC_KEY);
+
+    emailjs
+      .sendForm("service_3jr9grp", "template_jues89p", e.target)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+    alert("Message has been sent!");
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <ContactStyled id="contact">
       <div className="form">
         <div className="form-width">
-          <form action="">
+          <form action="" onSubmit={sentEmail}>
             <div className="form-group">
               <label className="form-label" htmlFor="Input1">
                 First name & Last name *
               </label>
               <input
+                required
                 placeholder="Jane Doe"
                 type="text"
                 id="Input1"
                 className="form-control"
+                name="name"
+                onChange={(event) => setName(event.target.value)}
+                value={name}
               />
             </div>
             <div className="form-group">
@@ -24,10 +50,14 @@ function Contact() {
                 Email adress *
               </label>
               <input
+                required
                 placeholder="name@example.com"
-                type="text"
+                type="email"
                 id="Input2"
                 className="form-control"
+                name="user_email"
+                onChange={(event) => setEmail(event.target.value)}
+                value={email}
               />
             </div>
             <div className="form-group">
@@ -35,11 +65,15 @@ function Contact() {
                 Send a message *
               </label>
               <textarea
+                required
                 placeholder="Your message here..."
                 id="Textarea1"
                 cols="30"
                 rows="3"
                 className="form-control"
+                name="message"
+                onChange={(event) => setMessage(event.target.value)}
+                value={message}
               ></textarea>
             </div>
             <button className="form-button">Send</button>

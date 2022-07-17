@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import portfolio from "../img/portfolio.svg";
 import download from "../img/download.svg";
+import resume from "../utils/Resume.docx";
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="/">
+          <a href={resume} download>
             Résumé
             <img className="resume-img" src={download} alt="portfolio" />
           </a>

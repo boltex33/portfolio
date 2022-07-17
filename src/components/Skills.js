@@ -46,9 +46,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-1"
-                    style={{ width: "70%" }}
+                    style={{ width: "60%" }}
                   >
-                    70%
+                    60%
                   </div>
                 </div>
                 <h6>CSS/Sass/StyledComponents</h6>
@@ -56,9 +56,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-1"
-                    style={{ width: "60%" }}
+                    style={{ width: "50%" }}
                   >
-                    60%
+                    50%
                   </div>
                 </div>
                 <h6>Javascript/ ReactJs</h6>
@@ -83,9 +83,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-2"
-                    style={{ width: "15%" }}
+                    style={{ width: "20%" }}
                   >
-                    15%
+                    20%
                   </div>
                 </div>
                 <h6>NodeJs / ExpressJs</h6>
@@ -93,9 +93,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-2"
-                    style={{ width: "10%" }}
+                    style={{ width: "25%" }}
                   >
-                    10%
+                    25%
                   </div>
                 </div>
                 <h6>MongoDB / MySQL</h6>

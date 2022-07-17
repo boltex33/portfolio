@@ -86,7 +86,7 @@ const AboutStyled = styled.div`
   .about-wrapper {
     display: flex;
     color: #fff;
-    min-height: 68vh;
+    min-height: 66vh;
     background-color: #3f3d56;
     width: 88%;
     border-radius: 4px;
