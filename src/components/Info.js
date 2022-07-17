@@ -9,7 +9,7 @@ function Info() {
         <div className="info-name2">
           <div className="info-name3">
             <h5>Hello, I am</h5>
-            <h3>Lacatușu</h3>
+            <h3>Lăcătușu</h3>
             <h4>Andrei - Cristian</h4>
           </div>
         </div>
