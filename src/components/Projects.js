@@ -5,6 +5,7 @@ import sassImg from "../img/sass.png";
 import framerImg from "../img/framer.png";
 import reduxImg from "../img/redux.png";
 import music from "../img/music.png";
+import memory from "../img/memory.png";
 import gaming from "../img/gaming.png";
 import recipe from "../img/recipe.png";
 import jwt from "../img/pern.png";
@@ -18,10 +19,10 @@ function Projects() {
     <ProjectsContainer>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#1 Music Player</h5>
-          <img src={music} alt="music-player" />
+          <h5>#1 Memory Game</h5>
+          <img src={memory} alt="memory game" />
           <a
-            href="https://github.com/boltex33/music-player"
+            href="https://github.com/boltex33/memory-game"
             target="_blank"
             rel="noreferrer"
           >
@@ -31,7 +32,7 @@ function Projects() {
             </div>
           </a>
           <a
-            href="https://mymusic-player.netlify.app/"
+            href="https://league-memory-game.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -48,86 +49,22 @@ function Projects() {
               <img src={reactImg} alt="react" />
               ReactJs
             </h4>
-            <h4>
-              <img src={sassImg} alt="sass" />
-              Sass
-            </h4>
             <div className="right-p">
               <p>
-                A simple music player application that uses static data. The
-                application is build from scratch, including the player itself,
-                buttons and slider.
+                A very basic 4x3 pair memory game with League of Legends theme.
               </p>
               <p>
-                The application can be easily edited into fetching an API of
-                songs/wallpapers. Or querry from a database.
+                Has a counter for the number of tries and also a "New Game"
+                button to start a new game.
               </p>
-              <p>
-                Mobile friendly{" "}
-                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
-              </p>
+              <p>Mobile friendly⛔</p>
             </div>
           </div>
         </div>
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#2 Gaming Database</h5>
-          <img src={gaming} alt="music-player" />
-          <a
-            href="https://github.com/boltex33/gaming-database"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={github} alt="github" />
-              Check Code
-            </div>
-          </a>
-          <a
-            href="https://gaming-database.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={external} alt="github" />
-              Visit Website
-            </div>
-          </a>
-        </div>
-        <div className="project-right">
-          <h6>Technologies Used</h6>
-          <div className="project-used">
-            <h4>
-              <img src={reactImg} alt="react" />
-              ReactJs
-            </h4>
-            <h4>
-              <img src={framerImg} alt="framer-motion" />
-              Framer-motion / Styled Components
-            </h4>
-            <h4>
-              <img src={reduxImg} alt="redux" />
-              Redux / Redux-thunk
-            </h4>
-            <div className="right-p">
-              <p>
-                An API based search engine. It has three sections; Popular
-                Games, New Games and Upcoming games. The application is using
-                windows date to dynamically adjust the API fetch.
-              </p>
-
-              <p>
-                Mobile friendly{" "}
-                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </ProjectsStyled>
-      <ProjectsStyled>
-        <div className="project-left">
-          <h5>#3 Recipe App</h5>
+          <h5>#2 Recipe App</h5>
           <img src={recipe} alt="recipe-app" />
           <a
             href="https://github.com/boltex33/recipe-app"
@@ -181,7 +118,117 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#4 JWT Authentication</h5>
+          <h5>#3 Music Player</h5>
+          <img src={music} alt="music-player" />
+          <a
+            href="https://github.com/boltex33/music-player"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Code
+            </div>
+          </a>
+          <a
+            href="https://mymusic-player.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Visit Website
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={reactImg} alt="react" />
+              ReactJs
+            </h4>
+            <h4>
+              <img src={sassImg} alt="sass" />
+              Sass
+            </h4>
+            <div className="right-p">
+              <p>
+                A simple music player application that uses static data. The
+                application is build from scratch, including the player itself,
+                buttons and slider.
+              </p>
+              <p>
+                The application can be easily edited into fetching an API of
+                songs/wallpapers. Or querry from a database.
+              </p>
+              <p>
+                Mobile friendly{" "}
+                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#4 Gaming Database</h5>
+          <img src={gaming} alt="music-player" />
+          <a
+            href="https://github.com/boltex33/gaming-database"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Code
+            </div>
+          </a>
+          <a
+            href="https://gaming-database.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Visit Website
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={reactImg} alt="react" />
+              ReactJs
+            </h4>
+            <h4>
+              <img src={framerImg} alt="framer-motion" />
+              Framer-motion / Styled Components
+            </h4>
+            <h4>
+              <img src={reduxImg} alt="redux" />
+              Redux / Redux-thunk
+            </h4>
+            <div className="right-p">
+              <p>
+                An API based search engine. It has three sections; Popular
+                Games, New Games and Upcoming games. The application is using
+                windows date to dynamically adjust the API fetch.
+              </p>
+
+              <p>
+                Mobile friendly{" "}
+                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#5 JWT Authentication</h5>
           <img src={jwt} alt="jwt-auth" />
           <a
             href="https://github.com/boltex33/auth-client"
