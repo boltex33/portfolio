@@ -8,9 +8,6 @@ import music from "../img/music.png";
 import memory from "../img/memory.png";
 import gaming from "../img/gaming.png";
 import recipe from "../img/recipe.png";
-import jwt from "../img/pern.png";
-import node from "../img/node.png";
-import postgres from "../img/postgres.png";
 import github from "../img/github.svg";
 import external from "../img/external.svg";
 
@@ -226,64 +223,6 @@ function Projects() {
         </div>
       </ProjectsStyled>
 
-      <ProjectsStyled>
-        <div className="project-left">
-          <h5>#5 JWT Authentication</h5>
-          <img src={jwt} alt="jwt-auth" />
-          <a
-            href="https://github.com/boltex33/auth-client"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={github} alt="github" />
-              Check Code
-            </div>
-          </a>
-          <a
-            href="https://auth-pern.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={external} alt="github" />
-              Visit Website
-            </div>
-          </a>
-        </div>
-        <div className="project-right">
-          <h6>Technologies Used</h6>
-          <div className="project-used">
-            <h4>
-              <img src={reactImg} alt="react" />
-              ReactJs
-            </h4>
-            <h4>
-              <img src={node} alt="express-js" />
-              ExpressJs
-            </h4>
-            <h4>
-              <img src={postgres} alt="postgres" />
-              PostgreSQL
-            </h4>
-
-            <div className="right-p">
-              <p>
-                A PERN authentication application with only register,login and
-                dashboard pages.
-              </p>
-              <p>
-                It uses a JSON Web Token for authentication and authorization
-                which is stored locally after register or login for 1 hour.
-              </p>
-              <p>
-                Mobile friendly{" "}
-                <span style={{ color: "rgb(87, 184, 148)" }}>⛔</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </ProjectsStyled>
     </ProjectsContainer>
   );
 }

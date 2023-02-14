@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import profile from "../img/profile.png";
 import github from "../img/github.svg";
-import facebook from "../img/facebook.svg";
+import twitter from "../img/twitter.svg";
 import discord from "../img/discord.png";
 import FlashMessage from "react-flash-message";
 
@@ -20,8 +20,7 @@ function About() {
           <img className="img-profile" src={profile} alt="profile" />
           <h5>
             <q>
-              Highly motivated, self-taught student seeking to launch a career
-              building web applications and services.
+              Highly motivated, self-taught and passionate of programming but focusing now mainly on python machine learning and data science.
             </q>
           </h5>
           <h6>
@@ -36,16 +35,16 @@ function About() {
             </span>
             <span>
               <a
-                href="https://www.facebook.com/LC.Andrei/"
+                href="https://twitter.com/LacaAndrei"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img className="img-info" src={facebook} alt="facebook" />
+                <img className="img-info" src={twitter} alt="twitter" />
               </a>
             </span>
             <span className="clipboard">
               <button onClick={onButtonClickHandler}>
-                <img src={discord} alt="discord" />
+                <img className="img-info" src={discord} alt="discord" />
               </button>
               {alert && (
                 <div className="flashdiv">
@@ -59,7 +58,7 @@ function About() {
         </div>
         <div className="about-right">
           <h2>Quick info</h2>
-          <h5>- Age: 23</h5>
+          <h5>- Age: 24</h5>
           <h5>- Location: Romania, Gorj</h5>
           <h2>Education</h2>
           <h5>
@@ -166,7 +165,7 @@ const AboutStyled = styled.div`
       .img-info {
         filter: invert(50%) sepia(100%) saturate(3352%) hue-rotate(180deg)
           brightness(95%) contrast(100%);
-        width: 1.8rem;
+        width: 2.2rem;
         margin-right: 2rem;
         @media screen and (max-width: 355px) {
           width: 1.5rem;
