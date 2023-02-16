@@ -11,6 +11,12 @@ function Skills() {
     <SkillsStyled>
       <div className="skills-wrapper">
         <div className="bloc-tabs">
+        <div
+            className={toggle === 5 ? "tabs active-tabs" : "tabs"}
+            onClick={() => toggleTab(5)}
+          >
+            Python
+          </div>
           <div
             className={toggle === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
@@ -35,8 +41,36 @@ function Skills() {
           >
             Other Skills
           </div>
+          
         </div>
         <div className="content-tabs">
+        <div className={toggle === 5 ? "content active-content" : "content"}>
+            <div className="progress">
+              <div className="progress-center">
+                <h1>Python</h1>
+                <h6>Machine Learning</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-5"
+                    style={{ width: "15%" }}
+                  >
+                    15%
+                  </div>
+                </div>
+                <h6>Data Science</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-5"
+                    style={{ width: "20%" }}
+                  >
+                    20%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={toggle === 1 ? "content active-content" : "content"}>
             <div className="progress">
               <div className="progress-center">
@@ -162,9 +196,30 @@ function Skills() {
                     40%
                   </div>
                 </div>
+                <h6>PyCharm</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-4"
+                    style={{ width: "40%" }}
+                  >
+                    40%
+                  </div>
+                </div>
+                <h6>Jupyter Notebook</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-4"
+                    style={{ width: "50%" }}
+                  >
+                    50%
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </SkillsStyled>
@@ -306,6 +361,9 @@ const SkillsStyled = styled.div`
               }
               .bg-4 {
                 background-color: #b18e26;
+              }
+              .bg-5 {
+                background-color: #d94153;
               }
             }
           }

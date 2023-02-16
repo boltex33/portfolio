@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import portfolio from "../img/portfolio.svg";
 import download from "../img/download.svg";
-import resume from "../utils/Resume.docx";
+import resume from "../utils/Resume.pdf";
 
 function Navbar() {
   return (

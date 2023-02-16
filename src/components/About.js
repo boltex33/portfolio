@@ -20,7 +20,7 @@ function About() {
           <img className="img-profile" src={profile} alt="profile" />
           <h5>
             <q>
-              Highly motivated, self-taught and passionate of programming but focusing now mainly on python machine learning and data science.
+              HHighly motivated, self-taught and passionate of programming. I'm a fast learner so i can adapt to new things pretty fast.
             </q>
           </h5>
           <h6>
@@ -66,7 +66,7 @@ function About() {
           </h5>
           <h5>- Turceni Technological Highschool</h5>
           <h2>Objectives</h2>
-          <h5>- Mastering React</h5>
+          <h5>- Learning </h5>
           <h5>- Learning backend after that</h5>
         </div>
       </div>
