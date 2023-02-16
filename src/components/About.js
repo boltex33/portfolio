@@ -66,8 +66,7 @@ function About() {
           </h5>
           <h5>- Turceni Technological Highschool</h5>
           <h2>Objectives</h2>
-          <h5>- Learning </h5>
-          <h5>- Learning backend after that</h5>
+          <h5>- Focused on learning machine learning and data science </h5>
         </div>
       </div>
     </AboutStyled>
