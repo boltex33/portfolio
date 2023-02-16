@@ -7,16 +7,139 @@ import reduxImg from "../img/redux.png";
 import music from "../img/music.png";
 import memory from "../img/memory.png";
 import gaming from "../img/gaming.png";
+import IMDB from "../img/IMDB.png";
+import tesla from "../img/tesla.png";
 import recipe from "../img/recipe.png";
 import github from "../img/github.svg";
 import external from "../img/external.svg";
+import python from "../img/python.svg";
 
 function Projects() {
   return (
     <ProjectsContainer>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#1 Memory Game</h5>
+          <h5>#1 TESLA Stocks and Revenue</h5>
+          <img src={tesla} alt="tesla-stocks-revenue-graph" />
+          <a
+            href="https://github.com/boltex33/TESLA_STOCKS"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Code
+            </div>
+          </a>
+          <a
+            href="https://youtu.be/D75lFUjMGeo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Check Video
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={python} alt="python" />
+              pandas
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              yfinance
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              requests
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              bs4
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              plotly
+            </h4>
+            <div className="right-p">
+              <p>
+               An app that uses Tesla revenue scraped data and the library yfinance for stock prices from 2010 to present.
+              </p>
+              <p>
+                The data will be used to create 2 graphs, one for revenue and one for stock prices.
+                There is also a slider to select a specific timeline and have a better visualisation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#2 IMDB movies web scraping</h5>
+          <img src={IMDB} alt="IMDB-popular-movies" />
+          <a
+            href="https://github.com/boltex33/IMDB"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Code
+            </div>
+          </a>
+          <a
+            href="https://youtu.be/Ts4yBAXEPso"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Check Video
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={python} alt="python" />
+              numpy
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              requests
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              bs4
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              mysql-connector-python
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              os
+            </h4>
+            <div className="right-p">
+              <p>
+                The app scrapes movie data from an IMDB website with the most popular 1000 movies.
+              </p>
+              <p>
+
+                The extracted data will be appended into lists which will be converted into SQL and inserted into a mySQL database.
+              </p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#3 Memory Game</h5>
           <img src={memory} alt="memory game" />
           <a
             href="https://github.com/boltex33/memory-game"
@@ -61,7 +184,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#2 Recipe App</h5>
+          <h5>#4 Recipe App</h5>
           <img src={recipe} alt="recipe-app" />
           <a
             href="https://github.com/boltex33/recipe-app"
@@ -115,7 +238,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#3 Music Player</h5>
+          <h5>#5 Music Player</h5>
           <img src={music} alt="music-player" />
           <a
             href="https://github.com/boltex33/music-player"
@@ -169,7 +292,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#4 Gaming Database</h5>
+          <h5>#6 Gaming Database</h5>
           <img src={gaming} alt="music-player" />
           <a
             href="https://github.com/boltex33/gaming-database"
@@ -209,7 +332,7 @@ function Projects() {
             </h4>
             <div className="right-p">
               <p>
-                An API based search engine. It has three sections; Popular
+                An API based search engine. It has three sections: Popular
                 Games, New Games and Upcoming games. The application is using
                 windows date to dynamically adjust the API fetch.
               </p>
