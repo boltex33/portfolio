@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 function Skills() {
-  const [toggle, setToggle] = useState(1);
+  const [toggle, setToggle] = useState(5);
   const toggleTab = (index) => {
     setToggle(index);
   };

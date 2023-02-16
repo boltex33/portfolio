@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function Footer() {
-  return <FooterStyled>Copyright © Lacatusu Andrei-Cristian 2022</FooterStyled>;
+  return <FooterStyled>Copyright © Lacatusu Andrei-Cristian 2023</FooterStyled>;
 }
 
 const FooterStyled = styled.div`
