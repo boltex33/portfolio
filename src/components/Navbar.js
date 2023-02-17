@@ -20,7 +20,7 @@ function Navbar() {
         </li>
         <li>
           <a href={resume} download>
-            Résumé
+            Resume
             <img className="resume-img" src={download} alt="portfolio" />
           </a>
         </li>
