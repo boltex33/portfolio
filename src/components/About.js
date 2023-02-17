@@ -3,7 +3,8 @@ import styled from "styled-components";
 import profile from "../img/profile.png";
 import github from "../img/github.svg";
 import twitter from "../img/twitter.svg";
-import discord from "../img/discord.png";
+import linkedin from "../img/linkedin.svg";
+import discord from "../img/discord.svg";
 import FlashMessage from "react-flash-message";
 
 function About() {
@@ -31,6 +32,15 @@ function About() {
                 rel="noreferrer"
               >
                 <img className="img-info" src={github} alt="github" />
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/lacatusu-andrei-cristian-8816ab232/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="img-info" src={linkedin} alt="linkedin" />
               </a>
             </span>
             <span>
