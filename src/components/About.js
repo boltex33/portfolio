@@ -36,7 +36,7 @@ function About() {
             </span>
             <span>
               <a
-                href="https://www.linkedin.com/in/lacatusu-andrei-cristian-8816ab232/"
+                href="https://www.linkedin.com/in/lacatusu-andrei-8816ab232/"
                 target="_blank"
                 rel="noreferrer"
               >

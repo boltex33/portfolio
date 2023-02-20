@@ -139,10 +139,10 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#3 Memory Game</h5>
-          <img src={memory} alt="memory game" />
+          <h5>#3 Gaming Database</h5>
+          <img src={gaming} alt="music-player" />
           <a
-            href="https://github.com/boltex33/memory-game"
+            href="https://github.com/boltex33/gaming-database"
             target="_blank"
             rel="noreferrer"
           >
@@ -152,52 +152,7 @@ function Projects() {
             </div>
           </a>
           <a
-            href="https://league-memory-game.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={external} alt="github" />
-              Visit Website
-            </div>
-          </a>
-        </div>
-        <div className="project-right">
-          <h6>Technologies Used</h6>
-          <div className="project-used">
-            <h4>
-              <img src={reactImg} alt="react" />
-              ReactJs
-            </h4>
-            <div className="right-p">
-              <p>
-                A very basic 4x3 pair memory game with League of Legends theme.
-              </p>
-              <p>
-                Has a counter for the number of tries and also a "New Game"
-                button to start a new game.
-              </p>
-              <p>Mobile friendly⛔</p>
-            </div>
-          </div>
-        </div>
-      </ProjectsStyled>
-      <ProjectsStyled>
-        <div className="project-left">
-          <h5>#4 Recipe App</h5>
-          <img src={recipe} alt="recipe-app" />
-          <a
-            href="https://github.com/boltex33/recipe-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="align-button">
-              <img src={github} alt="github" />
-              Check Code
-            </div>
-          </a>
-          <a
-            href="https://simple-recipe-site.netlify.app/"
+            href="https://gaming-database.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -218,19 +173,20 @@ function Projects() {
               <img src={framerImg} alt="framer-motion" />
               Framer-motion / Styled Components
             </h4>
-
+            <h4>
+              <img src={reduxImg} alt="redux" />
+              Redux / Redux-thunk
+            </h4>
             <div className="right-p">
               <p>
-                A simple API based food recipes application. It has four food
-                categories: Italian, American, Thai and Chinese.
+                An API based search engine. It has three sections: Popular
+                Games, New Games and Upcoming games. The application is using
+                windows date to dynamically adjust the API fetch.
               </p>
-              <p>
-                It has some vegetarian and popular picks on the home page and
-                also a search function to look for any specific recipe .
-              </p>
+
               <p>
                 Mobile friendly{" "}
-                <span style={{ color: "rgb(87, 184, 148)" }}>⛔</span>
+                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
               </p>
             </div>
           </div>
@@ -238,7 +194,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#5 Music Player</h5>
+          <h5>#4 Music Player</h5>
           <img src={music} alt="music-player" />
           <a
             href="https://github.com/boltex33/music-player"
@@ -292,10 +248,10 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#6 Gaming Database</h5>
-          <img src={gaming} alt="music-player" />
+          <h5>#5 Recipe App</h5>
+          <img src={recipe} alt="recipe-app" />
           <a
-            href="https://github.com/boltex33/gaming-database"
+            href="https://github.com/boltex33/recipe-app"
             target="_blank"
             rel="noreferrer"
           >
@@ -305,7 +261,7 @@ function Projects() {
             </div>
           </a>
           <a
-            href="https://gaming-database.netlify.app/"
+            href="https://simple-recipe-site.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -326,25 +282,72 @@ function Projects() {
               <img src={framerImg} alt="framer-motion" />
               Framer-motion / Styled Components
             </h4>
-            <h4>
-              <img src={reduxImg} alt="redux" />
-              Redux / Redux-thunk
-            </h4>
+
             <div className="right-p">
               <p>
-                An API based search engine. It has three sections: Popular
-                Games, New Games and Upcoming games. The application is using
-                windows date to dynamically adjust the API fetch.
+                A simple API based food recipes application. It has four food
+                categories: Italian, American, Thai and Chinese.
               </p>
-
+              <p>
+                It has some vegetarian and popular picks on the home page and
+                also a search function to look for any specific recipe .
+              </p>
               <p>
                 Mobile friendly{" "}
-                <span style={{ color: "rgb(87, 184, 148)" }}>✓</span>
+                <span style={{ color: "rgb(87, 184, 148)" }}>⛔</span>
               </p>
             </div>
           </div>
         </div>
       </ProjectsStyled>
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#6 Memory Game</h5>
+          <img src={memory} alt="memory game" />
+          <a
+            href="https://github.com/boltex33/memory-game"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Code
+            </div>
+          </a>
+          <a
+            href="https://league-memory-game.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Visit Website
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={reactImg} alt="react" />
+              ReactJs
+            </h4>
+            <div className="right-p">
+              <p>
+                A very basic 4x3 pair memory game with League of Legends theme.
+              </p>
+              <p>
+                Has a counter for the number of tries and also a "New Game"
+                button to start a new game.
+              </p>
+              <p>Mobile friendly⛔</p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+      
+      
+      
 
     </ProjectsContainer>
   );
