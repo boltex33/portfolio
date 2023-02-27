@@ -8,6 +8,9 @@ import music from "../img/music.png";
 import memory from "../img/memory.png";
 import gaming from "../img/gaming.png";
 import IMDB from "../img/IMDB.png";
+import classification from "../img/classification.png";
+import regression from "../img/regression.png";
+import deep_learning from "../img/deep_learning.png";
 import tesla from "../img/tesla.png";
 import recipe from "../img/recipe.png";
 import github from "../img/github.svg";
@@ -18,8 +21,180 @@ function Projects() {
   return (
     <ProjectsContainer>
       <ProjectsStyled>
+    <div className="project-left project-left-1">
+      <h5>#1 Dog breed detection</h5>
+      <img className="img-resize"  src={deep_learning} alt="python-regression" />
+      <a
+        href="https://github.com/boltex33/dog-detection"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="align-button">
+          <img src={github} alt="github" />
+          Check Repository
+        </div>
+      </a>
+      <a
+        href="https://github.com/boltex33/dog-detection/blob/main/dog_detection.ipynb"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="align-button">
+          <img src={external} alt="github" />
+          Check Notebook
+        </div>
+      </a>
+    </div>
+    <div className="project-right">
+      <h6>Technologies Used</h6>
+      <div className="project-used">
+        <h4>
+          <img src={python} alt="python" />
+          pandas
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          matplotlib
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          numpy
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          tensorflow
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          tensorflow-hub
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          sklearn
+        </h4>
+        <div className="right-p">
+          <p>
+          This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting the breed of a dog using a given picture.
+          </p>
+        </div>
+      </div>
+    </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
+    <div className="project-left">
+      <h5>#2 Bulldozer Price Regression</h5>
+      <img src={regression} alt="python-regression" />
+      <a
+        href="https://github.com/boltex33/bulldozer-price-regression"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="align-button">
+          <img src={github} alt="github" />
+          Check Repository
+        </div>
+      </a>
+      <a
+        href="https://github.com/boltex33/bulldozer-price-regression/blob/main/bulldoze-price-regression.ipynb"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="align-button">
+          <img src={external} alt="github" />
+          Check Notebook
+        </div>
+      </a>
+    </div>
+    <div className="project-right">
+      <h6>Technologies Used</h6>
+      <div className="project-used">
+        <h4>
+          <img src={python} alt="python" />
+          pandas
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          matplotlib
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          numpy
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          seaborn
+        </h4>
+        <h4>
+          <img src={python} alt="python" />
+          sklearn
+        </h4>
+        <div className="right-p">
+          <p>
+          This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting the price of a bulldozer.
+          </p>
+        </div>
+      </div>
+    </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
         <div className="project-left">
-          <h5>#1 TESLA Stocks and Revenue</h5>
+          <h5>#3 Heart Disease Classification</h5>
+          <img src={classification} alt="python-classification" />
+          <a
+            href="https://github.com/boltex33/heart-disease-classification"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={github} alt="github" />
+              Check Repository
+            </div>
+          </a>
+          <a
+            href="https://github.com/boltex33/bulldozer-price-regression/blob/main/bulldoze-price-regression.ipynb"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="align-button">
+              <img src={external} alt="github" />
+              Check Notebook
+            </div>
+          </a>
+        </div>
+        <div className="project-right">
+          <h6>Technologies Used</h6>
+          <div className="project-used">
+            <h4>
+              <img src={python} alt="python" />
+              pandas
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              matplotlib
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              numpy
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              seaborn
+            </h4>
+            <h4>
+              <img src={python} alt="python" />
+              sklearn
+            </h4>
+            <div className="right-p">
+              <p>
+              This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting whether or not someone has heart disease based on their medical attributes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </ProjectsStyled>
+      <ProjectsStyled>
+        <div className="project-left">
+          <h5>#4 TESLA Stocks and Revenue</h5>
           <img src={tesla} alt="tesla-stocks-revenue-graph" />
           <a
             href="https://github.com/boltex33/TESLA_STOCKS"
@@ -28,7 +203,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -38,7 +213,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Check Video
+              Check The Video
             </div>
           </a>
         </div>
@@ -79,7 +254,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#2 IMDB movies web scraping</h5>
+          <h5>#5 IMDB movies web scraping</h5>
           <img src={IMDB} alt="IMDB-popular-movies" />
           <a
             href="https://github.com/boltex33/IMDB"
@@ -88,7 +263,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -98,7 +273,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Check Video
+              Check The Video
             </div>
           </a>
         </div>
@@ -139,7 +314,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#3 Gaming Database</h5>
+          <h5>#6 Gaming Database</h5>
           <img src={gaming} alt="music-player" />
           <a
             href="https://github.com/boltex33/gaming-database"
@@ -148,7 +323,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -158,7 +333,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Visit Website
+              Visit The Website
             </div>
           </a>
         </div>
@@ -194,7 +369,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#4 Music Player</h5>
+          <h5>#7 Music Player</h5>
           <img src={music} alt="music-player" />
           <a
             href="https://github.com/boltex33/music-player"
@@ -203,7 +378,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -213,7 +388,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Visit Website
+              Visit The Website
             </div>
           </a>
         </div>
@@ -248,7 +423,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#5 Recipe App</h5>
+          <h5>#8 Recipe App</h5>
           <img src={recipe} alt="recipe-app" />
           <a
             href="https://github.com/boltex33/recipe-app"
@@ -257,7 +432,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -267,7 +442,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Visit Website
+              Visit The Website
             </div>
           </a>
         </div>
@@ -302,7 +477,7 @@ function Projects() {
       </ProjectsStyled>
       <ProjectsStyled>
         <div className="project-left">
-          <h5>#6 Memory Game</h5>
+          <h5>#9 Memory Game</h5>
           <img src={memory} alt="memory game" />
           <a
             href="https://github.com/boltex33/memory-game"
@@ -311,7 +486,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={github} alt="github" />
-              Check Code
+              Check Repository
             </div>
           </a>
           <a
@@ -321,7 +496,7 @@ function Projects() {
           >
             <div className="align-button">
               <img src={external} alt="github" />
-              Visit Website
+              Visit The Website
             </div>
           </a>
         </div>
@@ -378,7 +553,8 @@ const ProjectsStyled = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 120vh;
+    min-height: 130vh;
+    margin-bottom:50px;
   }
   @media only screen and (max-width: 575px) {
     min-height: 120vh;

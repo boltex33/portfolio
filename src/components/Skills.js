@@ -53,9 +53,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-5"
-                    style={{ width: "20%" }}
+                    style={{ width: "25%" }}
                   >
-                    20%
+                    25%
                   </div>
                 </div>
                 <h6>Data Science</h6>
@@ -63,9 +63,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-5"
-                    style={{ width: "20%" }}
+                    style={{ width: "25%" }}
                   >
-                    20%
+                    25%
                   </div>
                 </div>
               </div>
