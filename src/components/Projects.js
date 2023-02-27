@@ -151,7 +151,7 @@ function Projects() {
             </div>
           </a>
           <a
-            href="https://github.com/boltex33/bulldozer-price-regression/blob/main/bulldoze-price-regression.ipynb"
+            href="https://github.com/boltex33/heart-disease-classification/blob/main/heart-disease-classification.ipynb"
             target="_blank"
             rel="noreferrer"
           >
