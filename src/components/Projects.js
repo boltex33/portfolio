@@ -576,7 +576,7 @@ const ProjectsStyled = styled.div`
       margin-top: -150px;
     }
     h5 {
-      font-size: 25px;
+      font-size: 2.5vh;
       font-weight: 700;
       margin-bottom: 20px;
     }
