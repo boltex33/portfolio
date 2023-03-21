@@ -21,7 +21,7 @@ function About() {
           <img className="img-profile" src={profile} alt="profile" />
           <h5>
             <q>
-              Highly motivated, self-taught and passionate of programming. I'm a fast learner so i can adapt to new things pretty fast.
+              Highly motivated, self-taught, passionate of programming and testing. I'm a fast learner so i can adapt to new things pretty fast.
             </q>
           </h5>
           <h6>
