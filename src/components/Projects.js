@@ -557,7 +557,7 @@ const ProjectsStyled = styled.div`
     margin-bottom:50px;
   }
   @media only screen and (max-width: 575px) {
-    min-height: 120vh;
+    min-height: 160vh;
   }
   .project-left {
     width: 50%;

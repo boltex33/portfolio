@@ -248,7 +248,6 @@ const SkillsStyled = styled.div`
     height: 88vh;
   }
   @media only screen and (max-width: 575px) {
-    overflow: hidden;
   }
   .skills-wrapper {
     display: flex;
