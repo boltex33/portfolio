@@ -68,6 +68,16 @@ function Skills() {
                     25%
                   </div>
                 </div>
+                <h6>Testing</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-5"
+                    style={{ width: "30%" }}
+                  >
+                    30%
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -186,7 +196,17 @@ function Skills() {
                     35%
                   </div>
                 </div>
-                <h6>Visual Studio Code</h6>
+                <h6>Jira/Agile</h6>
+                <div className="progress2">
+                  <div
+                    role="progressbar"
+                    className="progress-bar progress-bar-striped bg-4"
+                    style={{ width: "30%" }}
+                  >
+                    30%
+                  </div>
+                </div>
+                <h6>Postman</h6>
                 <div className="progress2">
                   <div
                     role="progressbar"
@@ -196,24 +216,14 @@ function Skills() {
                     40%
                   </div>
                 </div>
-                <h6>PyCharm</h6>
+                <h6>REST API</h6>
                 <div className="progress2">
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-4"
-                    style={{ width: "40%" }}
+                    style={{ width: "35%" }}
                   >
-                    40%
-                  </div>
-                </div>
-                <h6>Jupyter Notebook</h6>
-                <div className="progress2">
-                  <div
-                    role="progressbar"
-                    className="progress-bar progress-bar-striped bg-4"
-                    style={{ width: "50%" }}
-                  >
-                    50%
+                    35%
                   </div>
                 </div>
               </div>
