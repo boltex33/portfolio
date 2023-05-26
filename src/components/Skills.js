@@ -201,9 +201,9 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-4"
-                    style={{ width: "30%" }}
+                    style={{ width: "20%" }}
                   >
-                    30%
+                    20%
                   </div>
                 </div>
                 <h6>Postman</h6>
@@ -211,12 +211,12 @@ function Skills() {
                   <div
                     role="progressbar"
                     className="progress-bar progress-bar-striped bg-4"
-                    style={{ width: "40%" }}
+                    style={{ width: "30%" }}
                   >
-                    40%
+                    30%
                   </div>
                 </div>
-                <h6>REST API</h6>
+                <h6>Power BI/Excel</h6>
                 <div className="progress2">
                   <div
                     role="progressbar"
