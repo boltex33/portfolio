@@ -10,7 +10,7 @@ import FlashMessage from "react-flash-message";
 function About() {
   const [alert, setAlert] = useState(false);
   const onButtonClickHandler = () => {
-    navigator.clipboard.writeText("Boltex#4834");
+    navigator.clipboard.writeText("boltex");
     setAlert(true);
     setTimeout(() => setAlert(false), 2000);
   };
@@ -21,7 +21,7 @@ function About() {
           <img className="img-profile" src={profile} alt="profile" />
           <h5>
             <q>
-              Fresh graduate, highly motivated, passionate of programming, data analysis and testing. I'm a fast learner so I can adapt to new things pretty fast.
+              Fresh graduate, highly motivated, passionate of data analysis, programming and technology. I'm a quick learner so I can adapt to new things pretty fast.
             </q>
           </h5>
           <h6>
