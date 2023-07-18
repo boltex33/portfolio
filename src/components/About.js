@@ -21,7 +21,7 @@ function About() {
           <img className="img-profile" src={profile} alt="profile" />
           <h5>
             <q>
-              Fresh graduate, highly motivated, passionate of data analysis, programming and technology. I'm a quick learner so I can adapt to new things pretty fast.
+              Fresh graduate, highly motivated, passionate of testing, data analysis, programming and technology. I'm a quick learner so I can adapt to new things pretty fast.
             </q>
           </h5>
           <h6>
@@ -75,9 +75,6 @@ function About() {
             - Faculty of Automation, Computers and Electronics from Craiova
           </h5>
           <h5>- Turceni Technological Highschool</h5>
-          <h2>Objectives</h2>
-          <h5>- Mastering software testing </h5>
-          <h5>- Learning other new and interesting things </h5>
         </div>
       </div>
     </AboutStyled>
